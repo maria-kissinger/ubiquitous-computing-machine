@@ -1,0 +1,46 @@
+.number-input-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.number-input-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #2FB652;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.number-input-button:hover {
+  background: #2AA34A;
+}
+
+.number-input-button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.number-input {
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 0;
+  -moz-appearance: textfield;
+}
+
+.number-input::-webkit-outer-spin-button,
+.number-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} 
